@@ -53,3 +53,14 @@ input {
 .hidden {
     display: none;
 }
+
+img {
+    max-width: 240px;
+    max-height: 300px;
+}
+
+section {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}

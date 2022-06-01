@@ -3,6 +3,8 @@ const tosCheckbox = document.getElementById('tos-checkbox');
 const displayAnimal = document.getElementById('display-animal');
 const animalSection = document.getElementById('animal-section');
 
+const imageSelect = document.getElementById('image-select');
+const imageDisplay = document.getElementById('image-display');
 // set event listeners
 
 tosCheckbox.addEventListener('change', () => {
@@ -13,6 +15,11 @@ tosCheckbox.addEventListener('change', () => {
 
 displayAnimal.addEventListener('click', () => {
     animalSection.classList.remove('hidden');
+});
+
+imageSelect.addEventListener('change', () => {
+    const src = 'assets/' + imageSelect.value;
+    imageDisplay.src = src;
 });
 
     // get info from user input
