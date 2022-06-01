@@ -6,10 +6,15 @@
     --footer-background: rgb(243, 242, 242);
 }
 
+
 body {
     font-family: 'Hubballi', cursive;
     background-color: var(--background);
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -27,4 +32,20 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+h2 {
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+input {
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
