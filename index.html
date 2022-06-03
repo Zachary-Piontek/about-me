@@ -6,17 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web UI Project</title>
+    <title>ZP About Me Project</title>
 </head>
 
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>About Me</h1>
     </header>
 
     <main>
-
+        <section>
+            <h2>Which animal is it?</h2>
+            <p class="introduction">My favorite animal is definitely a dog or cat or hippo or elephant or donkey
+                or monkey or ape or horse or rabbit or turtle or porcupine?
+            </p>
+            <p>
+                <input type="checkbox" id="tos-checkbox">
+                    "I accept all terms and conditions to see this amazing animal."
+                </input>
+            </p>
+            <p>
+                <button id="display-animal" disabled>Click Here</button>
+            </p>
+        </section>
+          
+        <section id="animal-section" class="hidden">
+            <h2>Animal Revealed</h2>
+                <div id="dog-container">
+                    <p>
+                        <img id="image-display" src="assets/Buster.jpeg">
+                        <p id="name-output" class="dog-name">Buster</p>
+                    </p>
+                </div>
+                    <p>
+                        <label>Choose your pup
+                            <select id="image-select">
+                                <option value="Buster.jpeg">Buster</option>
+                                <option value="Sheila.jpeg">Sheila</option>
+                                <option value="Smiley.jpeg">Smiley</option>
+                            </select>
+                        </label>
+                    </p>
+                <p>
+                    <label> 
+                        Name:
+                            <input id="name-input" value="Buster">
+                    </label>
+                </p>
+        </section>
     </main>
 
     <footer>&copy;2021 Aspiring Software Developer</footer>

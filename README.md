@@ -1,3 +1,14 @@
+
+--Event list
+    ~TOS button
+    ~button showing hidden section
+    ~changing image
+    ~naming the image
+
+
+![layout](./assets/About-Me-Layout.png)
+
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
